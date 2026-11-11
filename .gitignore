@@ -218,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Generated pipeline data and Spark output
+data/raw/*.csv
+data/processed/*
+!data/processed/.gitkeep
